@@ -1,0 +1,27 @@
+/* Padding */
+.soft-none						{ padding: 0 !important; }
+.soft-double					{ padding: (2 * $base-spacing-unit) !important; }
+
+.soft-none--top					{ padding-top: 0 !important; }
+.soft-none--bottom				{ padding-bottom: 0 !important; }
+.soft--top						{ padding-top: $base-spacing-unit !important; }
+.soft-one-and-a-half--top		{ padding-top: (1.5 * $base-spacing-unit) !important; }
+.soft-one-and-a-half--bottom	{ padding-bottom: (1.5 * $base-spacing-unit) !important; }
+
+
+/* Backgrounds */
+.bg-turquoise			{ background-color: $turquoise; }
+.bg-emerald		    	{ background-color: $emerald; }
+.bg-peter-river			{ background-color: $peter-river; }
+.bg-amethyst			{ background-color: $amethyst; }
+.bg-wet-asphalt			{ background-color: $wet-asphalt; }
+
+/* Borders */
+.border-green-sea		{ border: solid 2px $green-sea; }
+.border-nephritis		{ border: solid 2px $nephritis; }
+.border-belize-hole		{ border: solid 2px $belize-hole; }
+.border-wisteria		{ border: solid 2px $wisteria; }
+.border-midnight-blue	{ border: solid 2px $midnight-blue; }
+
+/* Text colour */
+.text--white			{ color: white; }

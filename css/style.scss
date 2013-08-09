@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/*------------------------------------*\
+    STYLE.CSS
+\*------------------------------------*/
+/**
+ *
+ * sass --watch style.scss:style.min.css --style compressed
+ *
+ * Here we pull in some variables, include the inuit.css framework, then add our
+ * project-specific components afterwards.
+ */
+
+@import "compass/css3"; //Import Compass CSS3 mixins
+
+/**
+ * Setup
+ */
+@import "vars";
+@import "inuit/inuit";
+
+
+/* -- ui/standard-theme.scss contains @includes for all the basic lemoncake ui components -- */
+@import "skin";
