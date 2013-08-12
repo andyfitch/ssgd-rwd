@@ -4,7 +4,7 @@
 		<title>A solution for responsive web design - SSGD (Stack Similarities, Group Differences)</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="chrome=1" />
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css?2" />
 	</head>
 	<body>
 		<div class="soft-double soft-one-and-a-half--top soft-none--bottom">
@@ -38,31 +38,45 @@
 					This solution is built on the <a href="http://inuitcss.com/" target="_blank">inuit.css</a> framework, which is ideal for stacking descriptive classes using BEM.
 				</li>
 			</ul>
+			<h2>Example:</h2>
+			<code>
+				<pre class="text--silver">&lt;div class="<i class="text--belize-hole">grid__item soft soft-none--top</i> <i class="text--carrot">a-grid__item--home</i> <i class="text--nephritis">d-one-two-three</i>"&gt;
+	&lt;div class="<i class="text--belize-hole">soft bg-turquoise border-green-sea height-200p</i>"&gt;
+		Box A
+	&lt;/div&gt;
+&lt;/div&gt;</pre>
+			</code>
+			<p>The example above is the code used to generate Box A below. If you resize your browser or change device you'll notice:</p>
+			<ul>
+				<li>The the classes highlighted in <i class="text--belize-hole">blue</i> describe the similarities between all devices and therefore don't change anything</li>
+				<li>The the classes highlighted in <i class="text--carrot">orange</i> describe differences, are prefixed with a-, and change the appearance (in this case just the font size)</li>
+				<li>The the classes highlighted in <i class="text--nephritis">green</i> describe differences, are prefixed with d-, and change the dimensions (in this case just the width)</li>
+			</ul>
 		</div>
 		<div class="grid soft text--white">
-			<div class="grid__item d-one-two-three soft soft-none--top">
+			<div class="grid__item soft soft-none--top a-grid__item--home d-one-two-three">
 				<div class="soft bg-turquoise border-green-sea height-200p">
-					A
+					Box A
 				</div>
 			</div><!--
-		 --><div class="grid__item d-one-two-three soft soft-none--top">
+		 --><div class="grid__item soft soft-none--top a-grid__item--home d-one-two-three">
 		 		<div class="soft bg-emerald border-nephritis height-200p">
-		 			B
+		 			Box B
 		 		</div>
 			</div><!--
-		 --><div class="grid__item d-one-two-three soft soft-none--top">
+		 --><div class="grid__item soft soft-none--top a-grid__item--home d-one-two-three">
 		 		<div class="soft bg-peter-river border-belize-hole height-200p">
-		 			C
+		 			Box C
 		 		</div>
 			</div><!--
-		 --><div class="grid__item d-one-two soft soft-none--top">
+		 --><div class="grid__item soft soft-none--top a-grid__item--home d-one-two">
 		 		<div class="soft bg-amethyst border-wisteria height-200p">
-		 			D
+		 			Box D
 		 		</div>
 			</div><!--
-		 --><div class="grid__item d-one-two soft soft-none--top">
+		 --><div class="grid__item soft soft-none--top a-grid__item--home d-one-two">
 		 		<div class="soft bg-wet-asphalt border-midnight-blue height-200p">
-		 			E
+		 			Box E
 		 		</div>
 			</div>
 		</div>
