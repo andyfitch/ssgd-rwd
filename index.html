@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>A solution for responsive web design - SSGD (Stack Similarities, Group Differences)</title>
+		<title>A solution for responsive web design - Stack Similarities, Group Differences</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="chrome=1" />
 		<link rel="stylesheet" type="text/css" href="css/style.css?2" />
 	</head>
 	<body>
 		<div class="soft-double soft-one-and-a-half--top soft-none--bottom">
-			<h1>A solution for responsive web design - SSGD (Stack Similarities, Group Differences)</h1>
+			<h1>A solution for responsive web design - Stack Similarities, Group Differences</h1>
 			<p>In the grand scheme of things, responsive web design (RWD) is still in its infancy, and there are a number of different theories on how to use our HTML &amp; CSS toolkit to best adapt to the plethora of devices ready to (attempt to) render your website how you'd like it to render.</p>
 			<p>A new solution is to give device-agnostic attributes descriptive, stacked classes. Conversely, device-specific attributes exist within two classes; one for dimensions (prefixed with d- for dimensions), and one for appearance and behaviour (prefixed with a- for appearance). The attributes within these classes are overridden using media queries.</p>
 			<ul>
 				<li>
-					Any attributes identical constant across all devices are given their own helper class.
+					Any attributes that remain identical across all devices are given their own helper class.
 					<ul>
 						<li>These classes are designed for rapid development.</li>
 						<li>Stacked together these classes will generate a 'common-denominator' element, which will look identical across all devices.</li>
@@ -35,7 +35,7 @@
 					</ul>
 				</li>
 				<li>
-					This solution is built on the <a href="http://inuitcss.com/" target="_blank">inuit.css</a> framework, which is ideal for stacking descriptive classes using BEM.
+					This solution is built on the <a href="http://inuitcss.com/" target="_blank">inuit.css</a> framework by <a href="http://csswizardry.com/">Harry Roberts at CSS Wizardry</a>, which is packaged up with hundreds of descriptive helper classes, ready to stack on to your elements. It also uses BEM, which is nice! :)
 				</li>
 			</ul>
 			<h2>Example:</h2>
