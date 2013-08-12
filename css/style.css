@@ -2582,6 +2582,9 @@ label,
     width: 1px !important; } }
 /* endif */
 /* -- ui/standard-theme.scss contains @includes for all the basic lemoncake ui components -- */
+.height-100p {
+  height: 100px; }
+
 /* Padding */
 .soft-none {
   padding: 0 !important; }
