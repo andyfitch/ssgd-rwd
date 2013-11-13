@@ -3,7 +3,7 @@ RWD - Stack Similarities, Group Differences
 
 In the grand scheme of things, responsive web design (RWD) is still in its infancy, and there are a number of different theories on how to use our HTML & CSS toolkit to best adapt to the plethora of devices ready to (attempt to) render your website how you'd like it to render.
 
-One solution is to:
+One solution is to declare that:
 
 - Attributes common to all devices are given their own descriptive, stacked classes.
 - Device-specific attributes are given a generic class. The attributes within these classes are overridden using media queries.
