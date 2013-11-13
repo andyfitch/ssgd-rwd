@@ -1,3 +1,13 @@
-.grid{
-    margin-left: 0;
+.grid {
+    margin-left: 0; // Reset
+}
+
+/**
+  * ONE (Mobile), TWO (Tablet), THREE (Desktop) Layout
+  * Used on: Home, Other page, Another page
+  */
+.grid--one-two-three {
+	.grid__item--primary, .grid__item--secondary {
+		width: 100%;
+	}
 }

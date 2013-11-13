@@ -1,0 +1,21 @@
+@media only screen and (min-width : 768px) {
+	.grid--one-two-three {
+		.grid__item--primary {
+			width: 50%;
+		}
+		.grid__item--secondary {
+			width: 50%;
+		}
+	}
+}
+
+@media only screen and (min-width : 1024px) {
+	.grid--one-two-three {
+		.grid__item--primary {
+			width: 50%;
+		}
+		.grid__item--secondary {
+			width: 33.333333%;
+		}
+	}
+}
